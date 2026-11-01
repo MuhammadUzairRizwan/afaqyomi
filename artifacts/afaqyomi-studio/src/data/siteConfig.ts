@@ -4,6 +4,10 @@ export const siteConfig = {
   tagline: 'CREATE. DESIGN. PROMOTE.',
   description: 'A creative digital studio helping artists, creators, entrepreneurs and businesses turn ideas into professional videos, designs, websites, products and promotional experiences.',
   email: 'afaqyomi@afaqyomi.com',
+  // Form-handling endpoint for the contact form (e.g. a Formspree or Web3Forms
+  // URL). While this is empty the form falls back to opening the visitor's mail
+  // client with the enquiry prefilled, so submissions are never discarded.
+  contactEndpoint: '',
   phone: '+18542062808',
   whatsapp: '+18542062808',
   copyright: '© 2026 AFAQYOMI. All rights reserved.',

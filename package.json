@@ -2,6 +2,9 @@
   "name": "afaqyomi-workspace",
   "private": true,
   "packageManager": "pnpm@10.8.1",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "build": "pnpm --filter @workspace/afaqyomi-studio build",
     "dev": "pnpm --filter @workspace/afaqyomi-studio dev",

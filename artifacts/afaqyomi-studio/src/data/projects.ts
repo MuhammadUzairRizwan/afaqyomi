@@ -64,7 +64,7 @@ export const projects: Project[] = [
     description: 'A supplied music track presented as an audio portfolio study for mixing and mastering, with the finished comparison available to play directly on the project page.',
     thumbnail: `${media}brunchy_track_cover.png`,
     heroImage: `${media}brunchy_track_cover.png`,
-    audioUrl: `${media}as_alwayz_track.wav`,
+    audioUrl: `${media}as_alwayz_track.flac`,
     services: ['Music Mixing & Mastering'], tools: ['Track mixing', 'Stereo mastering', 'Audio production'], featured: true, isPublished: true,
   },
   {
